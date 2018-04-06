@@ -78,11 +78,5 @@ public class StackStatic<T> {
         System.out.println(stack);
         System.out.println(stack.peek());
         System.out.println(stack);
-
-        StackStatic<Integer> emptyStack = new StackStatic<Integer>(0);
-        emptyStack.pop();
-
     }
-
-
 }
